@@ -1,0 +1,17 @@
+body {
+      text-align: center;
+      background: url("https://wallpaperbrowse.com/background-ombre/page/2");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+    }
+      input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
