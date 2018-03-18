@@ -1,7 +1,11 @@
 h1 {
   font-family: 'Dawning of a New Day', cursive;
-  font-size: 60px;
-  color: black;
+  font-size: 70px;
+  color: #191970;
+}
+h2 {
+  font-size: 20px
+  color: #191970;
 }
 body {
       text-align: center;
