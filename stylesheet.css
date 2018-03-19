@@ -2,10 +2,12 @@ h1 {
   font-family: 'Dawning of a New Day', cursive;
   font-size: 70px;
   color: #191970;
+
 }
 h2 {
   font-size: 20px
   color: #191970;
+  text-shadow: 2px 2px grey;
 }
 
 ul {
@@ -18,7 +20,7 @@ body {
   background: linear-gradient(pink, lightblue);
   background-size: cover;
   background-position: center;
-  color: grey;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
 }
@@ -86,7 +88,6 @@ li {
 }
 
 .footer {
-   margin: 150px;
    position: fixed;
    left: 0;
    bottom: 0;
