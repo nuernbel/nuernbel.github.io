@@ -84,6 +84,17 @@ li {
   list-style: none;
 }
 
+<<<<<<< HEAD
 img {
   max-width: 260px;
+=======
+.footer {
+   margin: 150px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:transparent;
+   text-align: center;
+>>>>>>> 094c8bffef42d95e287f3e8107445658aef21974
 }
