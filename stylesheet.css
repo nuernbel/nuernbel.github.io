@@ -15,12 +15,19 @@ ul {
 body {
   margin: 0;
   text-align: center;
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.background {
+  height: 100vh;
   background: linear-gradient(pink, lightblue);
   background-size: cover;
   background-position: center;
-  color: grey;
-  font-family: 'Montserrat', sans-serif;
-  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
 }
 
 
