@@ -37,9 +37,7 @@ h2 {
 }
 body {
       text-align: center;
-
       background: linear-gradient(pink, lightblue);
-
       background-size: cover;
       background-position: center;
       color: #191970;
@@ -59,3 +57,33 @@ body {
       color: white;
 
     }
+
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.alert-button {
+  background-color: white;
+  border: solid 3px turquoise;
+  padding: 10px;
+  font-size: 15px;
+}=
