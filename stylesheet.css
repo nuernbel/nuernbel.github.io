@@ -44,6 +44,7 @@ input {
   padding: 10px;
   font-size: 18px;
   font-color: grey;
+  border-radius: 30px;
 }
 
 input[type="submit"] {
