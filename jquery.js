@@ -1,4 +1,5 @@
 $("#button").click(function(event) {
-  var text = $("#input").val();
+  var text = $("#ingredient").val();
   $("#list").append('<li>' + text + '</li>');
+  
 });

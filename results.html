@@ -2,13 +2,13 @@
 <head>
   <title>BonApp</title>
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
   <style>
   .my-like {
@@ -50,42 +50,44 @@
 </head>
 <body>
 
-  <h1>Results</h1>
-    <article>
-      <div class="first">
-    <h2>Cheese and Crackers</h2>
-    <p>You'll need:</p>
-      <ul style="list-style-type:circle">
-        <li>Cheese</li>
-        <li>Crackers</li>
-      </ul>
-      <div class="my-like" data-reblog="{ReblogURL}" data-id="{PostID}" title="Like"></div>
-    </article>
-    <article>
-    <h2>Cheese and Apples</h2>
-    <p>You'll need:</p>
-      <ul style="list-style-type:circle">
-        <li>Cheese</li>
-        <li>Apples</li>
-      </ul>
-      <div class="my-like" data-reblog="{ReblogURL}" data-id="{PostID}" title="Like"></div>
-    </article>
-    <article>
-    <h2>Grilled Cheese Sandwich</h2>
-    <p>You'll need:</p>
-      <ul style="list-style-type:circle">
-        <li>Cheese</li>
-        <li>Bread</li>
-        <li>Butter or mayonnaise</li>
-      </ul>
-      <div class="my-like" data-reblog="{ReblogURL}" data-id="{PostID}" title="Like"></div>
-    </article>
+  <div class="results">
+    <h1>Results</h1>
+      <article>
+
+          <h2>Cheese and Crackers</h2>
+            <p>You'll need:</p>
+              <ul style="list-style-type:circle">
+                <li>Cheese</li>
+                <li>Crackers</li>
+              </ul>
+                <div class="my-like" data-reblog="{ReblogURL}" data-id="{PostID}" title="Like"></div>
+      </article>
+
+      <article>
+        <h2>Cheese and Apples</h2>
+          <p>You'll need:</p>
+            <ul style="list-style-type:circle">
+              <li>Cheese</li>
+              <li>Apples</li>
+            </ul>
+              <div class="my-like" data-reblog="{ReblogURL}" data-id="{PostID}" title="Like"></div>
+      </article>
+
+      <article>
+        <h2>Grilled Cheese Sandwich</h2>
+          <p>You'll need:</p>
+            <ul style="list-style-type:circle">
+              <li>Cheese</li>
+              <li>Bread</li>
+              <li>Butter or mayonnaise</li>
+            </ul>
+              <div class="my-like" data-reblog="{ReblogURL}" data-id="{PostID}" title="Like"></div>
+      </article>
+
+      <!-- Add font awesome icons -->
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+
+  </div>
     <script>$("button").on("click", function() { alert("yay!") })</script>
-  </body>
-
-
-
-
-  <!-- Add font awesome icons -->
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
+</body>

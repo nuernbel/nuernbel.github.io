@@ -61,4 +61,8 @@ background-color: white;
 border: solid 3px turquoise;
 padding: 10px;
 font-size: 15px;
-}=
+}
+
+li {
+  list-style: none;
+}
