@@ -17,14 +17,6 @@ ul {
 body {
   margin: 0;
   text-align: center;
-<<<<<<< HEAD
-  color: grey;
-=======
-  background: linear-gradient(pink, lightblue);
-  background-size: cover;
-  background-position: center;
-  color: white;
->>>>>>> 1e39f09bf74f5e200f1f577ad86745c76bfa54d5
   font-family: 'Montserrat', sans-serif;
 
 }
