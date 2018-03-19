@@ -6,8 +6,8 @@ h1 {
 }
 h2 {
   font-size: 20px
-  color: #191970;
-  text-shadow: 2px 2px grey;
+  color: #ffcccc;
+  text-shadow: 2px 2px #d9d9d9;
 }
 
 ul {
