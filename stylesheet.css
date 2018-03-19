@@ -17,12 +17,19 @@ ul {
 body {
   margin: 0;
   text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.background {
+  height: 100vh;
   background: linear-gradient(pink, lightblue);
   background-size: cover;
   background-position: center;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
 }
 
 
@@ -44,7 +51,6 @@ input {
   padding: 10px;
   font-size: 18px;
   font-color: grey;
-  border-radius: 30px;
 }
 
 input[type="submit"] {
@@ -55,7 +61,7 @@ input[type="submit"] {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 20px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -87,10 +93,6 @@ li {
   list-style: none;
 }
 
-
-img {
-  max-width: 260px;
-}
 .footer {
    position: fixed;
    left: 0;
@@ -98,4 +100,4 @@ img {
    width: 100%;
    background-color:transparent;
    text-align: center;
-}
+ }
